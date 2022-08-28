@@ -1,5 +1,5 @@
-const leapYears = function() {
-
+const leapYears = function () {
+  return;
 };
 
 // Do not edit below this line
