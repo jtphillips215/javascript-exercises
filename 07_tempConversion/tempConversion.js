@@ -1,5 +1,5 @@
 const ftoc = function (temp) {
-  return Math.round((temp - 32) * (5 / 9));
+  return parseFloat(((temp - 32) * (5 / 9)).toFixed(1));
 };
 
 const ctof = function () {
