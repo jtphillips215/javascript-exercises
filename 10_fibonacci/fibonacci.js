@@ -1,7 +1,8 @@
 const fibonacci = function (n) {
-  let sum = 0;
-  for (let i = 0; i < n; i++) {
-    sum += i;
+  if (n <= 1) {
+    return 1;
+  } else {
+    return fibonacci(n - 1) + fibonacci(n - 2);
   }
 };
 
